@@ -2,6 +2,9 @@
   height: 300px;
   background: linear-gradient(to right, red, green);
 }
+.gradient i{
+  font-size: 30px;
+}
 .gradient h2{
   text-align: center;
   padding-top: 30px;
@@ -23,6 +26,14 @@
   background: red;
   margin: 30px auto;
 }
-.skew:hover{
+
+.scale{
+  width: 150px;
+  height: 100px;
+  background: red;
+  margin: 30px auto;
+  box-shadow: 10px 10px #000;
+}
+.scale:hover{
   transform: rotate(20deg)
 }
