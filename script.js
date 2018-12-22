@@ -1,9 +1,4 @@
-function callfunc (myFunc, myAges){
-  return myFunc(myAges);
-}
-
-function addHun (num){
-  return num + 300;
-}
-var result = callfunc(addHun, 1000);
-console.log(result);
+<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
